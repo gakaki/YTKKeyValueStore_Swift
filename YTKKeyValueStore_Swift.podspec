@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "sgxiang" => "690228918@qq.com" }
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "https://github.com/sgxiang/YTKKeyValueStore_Swift.git", :tag => "0.3.4" }
+  s.source       = { :git => "https://github.com/gakaki/YTKKeyValueStore_Swift.git", :tag => "0.3.4" }
   s.source_files = "YTKKeyValueStore/*.swift"
   s.requires_arc = true
   s.module_name  = 'YTKKeyValueStore'
-  s.dependency   "SQLite.swift", "~> 0.9.2"
+  s.dependency   "SQLite.swift", "~> 0.10.1"
 end
